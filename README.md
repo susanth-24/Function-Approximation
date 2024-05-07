@@ -1,5 +1,78 @@
 # Function Approximation Methods
 
+## Directory of the Project
+├── DataPrep.py
+├── Dataset/
+│   ├── Data.txt
+│   ├── data.csv
+├── JIT.py
+├── Kfold_Linear.py
+├── Kfold_Poly_2.py
+├── Kfold_Poly_3.py
+├── Lasso_Linear.py
+├── Lasso_Poly_2.py
+├── Lasso_Poly_3.py
+├── LinearRegression.py
+├── Models/
+│   ├── LinearModel.py
+│   ├── NeuralNet.py
+│   ├── PolynomialModel.py
+│   ├── Preprocessing/
+│   │   ├── GridSearchCV.py
+│   │   ├── KFold.py
+│   │   ├── Lasso.py
+│   │   ├── PCA.py
+│   │   ├── __init__.py
+│   │   ├── __pycache__/
+│   │   │   ├── GridSearchCV.cpython-311.pyc
+│   │   │   ├── KFold.cpython-311.pyc
+│   │   │   ├── Lasso.cpython-311.pyc
+│   │   │   ├── PCA.cpython-311.pyc
+│   │   │   ├── __init__.cpython-311.pyc
+│   ├── SimpleNet.py
+│   ├── __init__.py
+│   ├── __pycache__/
+│   │   ├── LinearModel.cpython-311.pyc
+│   │   ├── NeuralNet.cpython-311.pyc
+│   │   ├── PolynomialModel.cpython-311.pyc
+│   │   ├── SimpleNet.cpython-311.pyc
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── utils.cpython-311.pyc
+│   ├── utils.py
+├── Neural_Net_Compare.py
+├── PCA.py
+├── PCA_Linear.py
+├── PCA_NN_1.py
+├── PCA_NN_2.py
+├── PCA_Poly_2.py
+├── PCA_Poly_3.py
+├── PolynomialRegression.py
+├── README.md
+├── Results/
+│   ├── Kfold_Linear.png
+│   ├── Kfold_Poly_2.png
+│   ├── Kfold_Poly_3.png
+│   ├── Lasso-Linear.png
+│   ├── Lasso-Poly-2.png
+│   ├── Lasso-Poly-3.png
+│   ├── Linear_loss.png
+│   ├── PCA-scatter-Plot.png
+│   ├── PCA-u1.png
+│   ├── PCA-u2.png
+│   ├── PCA-u3.png
+│   ├── PCA-u4.png
+│   ├── PCA-u5.png
+│   ├── PCA-u6.png
+│   ├── PCA-u7.png
+│   ├── PCA_Linear.png
+│   ├── PCA_NN_MULTI.png
+│   ├── PCA_NN_Single.png
+│   ├── PCA_Poly_2.png
+│   ├── PCA_Poly_3.png
+│   ├── Poly_loss.png
+├── __init__.py
+├── directory.py
+
 ## Description of the Process/System Details:
 
 The Debutanizer column is a crucial component in the distillation process. It separates propane (C3) and butane (C4) from the naphtha stream. The main objectives are to increase the concentration of stabilized gasoline (C5) in the overheads and to decrease the concentration of butane (C4) in the bottoms. Soft sensors based on linear regression and higher order regression along with feature extraction methods like Principal Component Analysis (PCA) are implemented for improved control quality.
